@@ -14,7 +14,7 @@
 ]
 
 #section("Profile")
-I'm a career changer with 5+ YOE in financial data analysis
+I'm a career changer with 5+ years of experience in financial data analysis.
 
 #if cv_type == "swe" {
   section("Skills")
@@ -34,7 +34,7 @@ I'm a career changer with 5+ YOE in financial data analysis
 
 #entry(
   [
-    *#link("https://github.com/hieutrpham/webserver", `Web Server`)* - _HTTP Server from scratch_ #cpp\
+    *#link("https://github.com/hieutrpham/webserver", `Web Server`)* - _HTTP Server from scratch_
     - Engineered a low-level *C++ HTTP server* via POSIX sockets, handling TCP connections and serving static HTML, CSS, Javascript, and image files
     - Delivered full GET, POST, and DELETE support with spec-compliant status codes and response header
     - Enabled concurrent browser and client support via poll-based non-blocking I/O without threads
@@ -54,7 +54,7 @@ I'm a career changer with 5+ YOE in financial data analysis
 
 #entry(
   [
-    *#link("https://github.com/hieutrpham/raycaster", `Angry Cube`)* - _A pseudo 3D game_ #cplain
+    *#link("https://github.com/hieutrpham/raycaster", `Angry Cube`)* - _A pseudo 3D game_
     - Implemented a 2D raycasting graphics engine from scratch in *C*
     - Developed robust 2D linear vector mechanics for player movements and collision detection
   ]
@@ -62,7 +62,7 @@ I'm a career changer with 5+ YOE in financial data analysis
 
 #entry(
   [
-    *#link("https://github.com/hieutrpham/supershell", `SuperShell`)* - _A lightweight shell interpreter_ #cplain
+    *#link("https://github.com/hieutrpham/supershell", `SuperShell`)* - _A lightweight shell interpreter_
     - Engineered a POSIX-compliant Unix shell in *C* with multi-process execution, pipeline routing and I/O redirection using system calls
     - Designed a custom memory arena allocator to optimize heap usage and prevent memory fragmentation and leaks
     - Built a custom lexer and a parser adhering to standard shell token recognition rules
@@ -72,14 +72,14 @@ I'm a career changer with 5+ YOE in financial data analysis
 
 #entry(
   [
-    *#link("https://github.com/hieutrpham/huff", `Huff`)* - _A text compresstion tool_ #cplain
+    *#link("https://github.com/hieutrpham/huff", `Huff`)* - _A text compresstion tool_
     - Implemented the Huffman algorithm to compress texts
   ]
 )
 
 #entry(
   [
-    *#link("https://github.com/hieutrpham/cfit", `Cfit`)* - _An activity visualizer_ #cplain
+    *#link("https://github.com/hieutrpham/cfit", `Cfit`)* - _An activity visualizer_
     - Explored a Developer Kit library for Garmin devices
     - Analyzed the activity data and created a visualization using Raylib
   ]
@@ -87,12 +87,12 @@ I'm a career changer with 5+ YOE in financial data analysis
 
 #entry(
   [
-    *#link("https://github.com/hieutrpham/diner_philo", `Dining Philosophers`)* - _Concurrency and Parallelism_ #cplain
+    *#link("https://github.com/hieutrpham/diner_philo", `Dining Philosophers`)* - _Concurrency and Parallelism_
     - Implemented a multi-threaded and multi-process program to solve the classic dining philosopher problem using POSIX pthread and semaphore
   ]
 )
 
-// #pagebreak()
+#pagebreak()
 
 #section("Professional Experience")
 #entry(
