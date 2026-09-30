@@ -2,6 +2,7 @@
 #import "icons.typ": *
 
 #show: styling
+#let cv_type = "swe"
 
 #align(center)[
   =  #author
@@ -13,9 +14,9 @@
 ]
 
 #section("Profile")
-I'm a career changer with 5+ YOE in data analysis
+I'm a career changer with 5+ YOE in financial data analysis
 
-#if true {
+#if cv_type == "swe" {
   section("Skills")
   table(
     align: left,
@@ -24,14 +25,13 @@ I'm a career changer with 5+ YOE in data analysis
     row-gutter: 0pt,
     column-gutter: 5pt,
     inset: (left: 0pt, top: 2pt),
-    text("Programming Languages", weight: 600),
-    [C, C++],
-    text("Development Tools", weight: 600),
-    [Git, GitHub Actions, Linux, Make, GDB],
+    text("Programming Languages", weight: 600), [C, C++, Bash, TypeScript, Go],
+    text("Development Tools", weight: 600), [Git, Linux, Make, GDB, Docker, Docker Compose, Neovim],
   )
 }
 
 #section("Projects")
+
 #entry(
   [
     *#link("https://github.com/hieutrpham/webserver", `Web Server`)* - _HTTP Server from scratch_ #cpp\
@@ -44,20 +44,28 @@ I'm a career changer with 5+ YOE in data analysis
 
 #entry(
   [
+    *#link("https://github.com/hieutrpham/interception", `Interception`)* - _Dockerized Full Stack Web App_ \
+    - Architected a multi-container web application using *Docker* and *Docker Compose*, running services in isolated, lightweight environments
+    - Configured *Nginx* as a reverse proxy with custom SSL/TLS encryption (HTTPS), managing secure traffic routing, port bindings, and optimized request handling for backend services
+    - Integrated a custom *WordPress* frontend connected to a dedicated *MariaDB* database with persistent volume management
+  ]
+  // right-text: [_08/2022_]
+)
+
+#entry(
+  [
     *#link("https://github.com/hieutrpham/raycaster", `Angry Cube`)* - A pseudo 3D game #cplain
-    - Implemented the rendering algorithm used in the classic Wolfenstein 3D game
-    - Showcased initiative by creating an end-to-end gameplay that extends beyond the project's requirements
-    - Implemented unit tests for logical components of the game
-    - Improved project reliability and efficiency by implementing automated workflows using Github Action to test and build the game
+    - Implemented a 2D raycasting graphics engine from scratch in *C*
+    - Developed robust 2D linear vector mechanics for player movements and collision detection
   ]
 )
 
 #entry(
   [
     *#link("https://github.com/hieutrpham/supershell", `SuperShell`)* - A lightweight shell interpreter #cplain
-    - Built a lexer and tokenizer for commands to be executed
-    - Practiced collaborative problem solving by co-designing a parser based on the lexical analysis
-    - Created a pipeline structure to execute user's commands
+    - Engineered a POSIX-compliant Unix shell in *C* with multi-process execution, pipeline routing and I/O redirection using system calls
+    - Designed a custom memory arena allocator to optimize heap usage and prevent memory fragmentation and leaks
+    - Built a custom lexer and a parser adhering to standard shell token recognition rules
     - Implemented unit testing to ensure the robustness of the code base
   ]
 )
@@ -80,7 +88,7 @@ I'm a career changer with 5+ YOE in data analysis
 #entry(
   [
     *#link("https://github.com/hieutrpham/diner_philo", `Dining Philosophers`)* - Concurrency and Parallelism #cplain
-    - Implemented a multithreaded and multiprocess program to solve the classic dining philosopher problem using POSIX pthread and semaphore
+    - Implemented a multi-threaded and multi-process program to solve the classic dining philosopher problem using POSIX pthread and semaphore
   ]
 )
 
@@ -93,7 +101,7 @@ I'm a career changer with 5+ YOE in data analysis
     - Exercised full accountability and project management skills by overseeing the lifecycle of a class action case
     - Crafted PL/SQL scripts to automate calculation of clients' entitled losses
     - Translated highly technical legal and financial data into clear, actionable information for diverse clients
-    - Mentored junior team members on case management best practices, fostering a culture of knowledge sharing and problem solving
+    // - Mentored junior team members on case management best practices, fostering a culture of knowledge sharing and problem solving
   ],
   right-text: [_2019-2024_]
 )
