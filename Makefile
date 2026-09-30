@@ -1,7 +1,7 @@
 CV = cv.typ
 Cover = cover.typ
 
-all: cv cover
+all: cv
 
 cv:
 	typst compile $(CV) cv.pdf

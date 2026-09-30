@@ -25,8 +25,8 @@ I'm a career changer with 5+ YOE in financial data analysis
     row-gutter: 0pt,
     column-gutter: 5pt,
     inset: (left: 0pt, top: 2pt),
-    text("Programming Languages", weight: 600), [C, C++, Bash, TypeScript, Go],
-    text("Development Tools", weight: 600), [Git, Linux, Make, GDB, Docker, Docker Compose, Neovim],
+    text("Programming Languages", weight: 600), [C, C++, Bash, PL/SQL, TypeScript, Go],
+    text("Development Tools", weight: 600), [Git, Linux, Make, GDB, Docker, Docker Compose, Vim],
   )
 }
 
@@ -35,7 +35,7 @@ I'm a career changer with 5+ YOE in financial data analysis
 #entry(
   [
     *#link("https://github.com/hieutrpham/webserver", `Web Server`)* - _HTTP Server from scratch_ #cpp\
-    - Engineered a low-level C++ HTTP server via POSIX sockets, handling TCP connections and serving static HTML, CSS, Javascript, and image files
+    - Engineered a low-level *C++ HTTP server* via POSIX sockets, handling TCP connections and serving static HTML, CSS, Javascript, and image files
     - Delivered full GET, POST, and DELETE support with spec-compliant status codes and response header
     - Enabled concurrent browser and client support via poll-based non-blocking I/O without threads
   ],
@@ -54,7 +54,7 @@ I'm a career changer with 5+ YOE in financial data analysis
 
 #entry(
   [
-    *#link("https://github.com/hieutrpham/raycaster", `Angry Cube`)* - A pseudo 3D game #cplain
+    *#link("https://github.com/hieutrpham/raycaster", `Angry Cube`)* - _A pseudo 3D game_ #cplain
     - Implemented a 2D raycasting graphics engine from scratch in *C*
     - Developed robust 2D linear vector mechanics for player movements and collision detection
   ]
@@ -62,7 +62,7 @@ I'm a career changer with 5+ YOE in financial data analysis
 
 #entry(
   [
-    *#link("https://github.com/hieutrpham/supershell", `SuperShell`)* - A lightweight shell interpreter #cplain
+    *#link("https://github.com/hieutrpham/supershell", `SuperShell`)* - _A lightweight shell interpreter_ #cplain
     - Engineered a POSIX-compliant Unix shell in *C* with multi-process execution, pipeline routing and I/O redirection using system calls
     - Designed a custom memory arena allocator to optimize heap usage and prevent memory fragmentation and leaks
     - Built a custom lexer and a parser adhering to standard shell token recognition rules
@@ -72,14 +72,14 @@ I'm a career changer with 5+ YOE in financial data analysis
 
 #entry(
   [
-    *#link("https://github.com/hieutrpham/huff", `Huff`)* - A text compresstion tool #cplain
+    *#link("https://github.com/hieutrpham/huff", `Huff`)* - _A text compresstion tool_ #cplain
     - Implemented the Huffman algorithm to compress texts
   ]
 )
 
 #entry(
   [
-    *#link("https://github.com/hieutrpham/cfit", `Cfit`)* - An activity visualizer #cplain
+    *#link("https://github.com/hieutrpham/cfit", `Cfit`)* - _An activity visualizer_ #cplain
     - Explored a Developer Kit library for Garmin devices
     - Analyzed the activity data and created a visualization using Raylib
   ]
@@ -87,7 +87,7 @@ I'm a career changer with 5+ YOE in financial data analysis
 
 #entry(
   [
-    *#link("https://github.com/hieutrpham/diner_philo", `Dining Philosophers`)* - Concurrency and Parallelism #cplain
+    *#link("https://github.com/hieutrpham/diner_philo", `Dining Philosophers`)* - _Concurrency and Parallelism_ #cplain
     - Implemented a multi-threaded and multi-process program to solve the classic dining philosopher problem using POSIX pthread and semaphore
   ]
 )
@@ -99,7 +99,7 @@ I'm a career changer with 5+ YOE in financial data analysis
   [
     *Senior Data Analyst* (_Financial Recovery Technologies_)
     - Exercised full accountability and project management skills by overseeing the lifecycle of a class action case
-    - Crafted PL/SQL scripts to automate calculation of clients' entitled losses
+    - Crafted *PL/SQL* scripts to automate calculation of clients' entitled losses
     - Translated highly technical legal and financial data into clear, actionable information for diverse clients
     // - Mentored junior team members on case management best practices, fostering a culture of knowledge sharing and problem solving
   ],
